@@ -47,14 +47,14 @@ export const reviews = [
   {
     imgURL: customer1,
     customerName: "Aarav Patel",
-    rating: 4.5,
+    rating: 4.8,
     feedback:
       "Impressed with the attention to dental health and the quality of care provided. Highly recommended!",
   },
   {
     imgURL: customer2,
     customerName: "Ananya Sharma",
-    rating: 4.5,
+    rating: 4.7,
     feedback:
       "The dental services not only met but exceeded my expectations. I'm genuinely delighted!",
   },
