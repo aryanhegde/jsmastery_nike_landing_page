@@ -12,7 +12,7 @@ const Button = ({
     );
 
     // Replace 'phone_number' with the actual phone number you want to contact via WhatsApp
-    const phoneNumber = "8892293397";
+    const phoneNumber = "+918892293397";
 
     const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
     window.open(whatsappURL, "_blank");
