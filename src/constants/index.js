@@ -141,12 +141,12 @@ export const footerLinks = [
   {
     title: "Services",
     links: [
-      { name: "Invisalign", link: "/" },
-      { name: "Teeth Filling", link: "/" },
-      { name: "Teeth Whitening", link: "/" },
-      { name: "Tooth Removal", link: "/" },
-      { name: "Implants", link: "/" },
-      { name: "Crowns", link: "/" },
+      { name: "Invisalign", link: "#services" },
+      { name: "Teeth Filling", link: "#services" },
+      { name: "Teeth Whitening", link: "#services" },
+      { name: "Tooth Removal", link: "#services" },
+      { name: "Implants", link: "#services" },
+      { name: "Crowns", link: "#services" },
     ],
   },
   {
@@ -161,8 +161,8 @@ export const footerLinks = [
   {
     title: "Get in touch",
     links: [
-      { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-      { name: "+92554862354", link: "tel:+92554862354" },
+      { name: "Vsirsi@gmail.com", link: "mailto:Vsirsi@gmail.com" },
+      { name: "+91 8892293397", link: "tel:+918892293397" },
     ],
   },
 ];

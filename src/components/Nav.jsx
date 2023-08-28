@@ -1,17 +1,18 @@
-import { headerLogo } from "../assets/images";
+import { logoTransparent, logoTransparent2 } from "../assets/images";
 
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import { useState } from "react";
 import { navLinks } from "../constants";
 import Button from "./Button";
-import { useState } from "react";
 
 const Nav = () => {
   const [navbar, toggleNavbar] = useState(true);
   return (
-    <header className="padding-x py-8  absolute w-full z-40">
-      <nav className="flex justify-between items-center max-container">
-        <a href="/">
-          <img src={headerLogo} alt="logo" width={130} height={29} />
+    <header className="padding-x py-8  absolute    w-full z-40">
+      <nav className="flex justify-between items-center max-container ">
+        <a href="/" className="">
+          {/* <img src={logoTransparent} alt="logo" height={140} width={280} /> */}
+          <img src={logoTransparent2} alt="logo" height={70} width={210} />
         </a>
         <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden">
           {navLinks.map((item) => (

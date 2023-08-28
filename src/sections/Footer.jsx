@@ -1,5 +1,5 @@
 import { copyrightSign } from "../assets/icons";
-import { footerLogo } from "../assets/images";
+import { footerLogo, logoTransparent2 } from "../assets/images";
 import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => {
@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="justify-between flex items-start gap-20 flex-wrap max-lg:flex-col ">
         <div className="flex flex-col items-start">
           <a href="/">
-            <img src={footerLogo} alt="Logo" width={156} height={46} />
+            <img src={logoTransparent2} alt="Logo" width={178} height={46} />
           </a>
           <p className="mt-6 text-white-400 text-base font-montserrat sm:max-w-sm">
             Crafting Healthy, Beautiful Smiles: Experience Excellence in

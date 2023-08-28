@@ -12,6 +12,10 @@ import thumbnailShoe3 from "./thumbnail-shoe3.svg";
 import smileHero from "./smile-hero.jpg";
 import aGirlSmiling from "./a-girl-smiling.jpg";
 import dentalClinic from "./dental-clinic.jpg";
+
+import logo from "./logo.jpg";
+import logoTransparent from "./logo-transparent.png";
+import logoTransparent2 from "./logo-transparent2.png";
 export {
   customer1,
   customer2,
@@ -24,4 +28,7 @@ export {
   smileHero,
   aGirlSmiling,
   dentalClinic,
+  logo,
+  logoTransparent,
+  logoTransparent2,
 };
